@@ -1,5 +1,5 @@
 FROM java:8  
-COPY . /var/www/java  
-WORKDIR /var/www/java  
+COPY D:\demo_docker  
+WORKDIR D:\demo_docker  
 RUN javac Hello.java  
 CMD ["java", "Hello"]  
